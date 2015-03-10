@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RadioGroup
+        android:id="@+id/footer_rg_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/footer_rb_supervise"
+            style="@style/RadioButton"
+            android:drawableTop="@drawable/ic_launcher"
+            android:checked="true"
+            android:text="企业监管" />
+
+        <RadioButton
+            android:id="@+id/footer_rb_regulation"
+            style="@style/RadioButton"
+            android:drawableTop="@drawable/ic_launcher"
+            android:text="政策法规" />
+
+        <RadioButton
+            android:id="@+id/footer_rb_dynamic"
+            style="@style/RadioButton"
+            
+            android:drawableTop="@drawable/ic_launcher"
+            android:text="行业动态" />
+
+        <RadioButton
+            android:id="@+id/footer_rb_report"
+            style="@style/RadioButton"
+            android:drawableTop="@drawable/ic_launcher"
+            android:text="报告" />
+    </RadioGroup>
+
+</merge>

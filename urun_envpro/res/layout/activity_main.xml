@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_dlyt_drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/main_flyt_content"
+        layout="@layout/main_content" />
+
+    <include
+        android:id="@+id/main_llyt_menu"
+        layout="@layout/sliding_menu" />
+
+</android.support.v4.widget.DrawerLayout>
