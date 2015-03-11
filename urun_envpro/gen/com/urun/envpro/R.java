@@ -365,22 +365,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int vpi__tab_unselected_pressed_holo=0x7f02000d;
     }
     public static final class id {
-        public static final int action_settings=0x7f040012;
-        public static final int base_tv_content=0x7f040008;
+        public static final int action_settings=0x7f040017;
+        public static final int base_tv_content=0x7f040009;
         public static final int bottom=0x7f040003;
-        public static final int footer_rb_dynamic=0x7f04000d;
-        public static final int footer_rb_regulation=0x7f04000c;
-        public static final int footer_rb_report=0x7f04000e;
-        public static final int footer_rb_supervise=0x7f04000b;
-        public static final int footer_rg_tab=0x7f04000a;
-        public static final int header_ibtn_icon=0x7f04000f;
-        public static final int header_ibtn_more=0x7f040011;
-        public static final int header_tpi_channel=0x7f040010;
+        public static final int cw_tv_label=0x7f040008;
+        public static final int footer_rb_dynamic=0x7f04000e;
+        public static final int footer_rb_regulation=0x7f04000d;
+        public static final int footer_rb_report=0x7f04000f;
+        public static final int footer_rb_supervise=0x7f04000c;
+        public static final int footer_rg_tab=0x7f04000b;
+        public static final int header_ibtn_icon=0x7f040010;
+        public static final int header_ibtn_more=0x7f040012;
+        public static final int header_tpi_channel=0x7f040011;
         public static final int main_dlyt_drawer=0x7f040005;
         public static final int main_flyt_content=0x7f040006;
         public static final int main_llyt_menu=0x7f040007;
-        public static final int main_vp_content=0x7f040009;
+        public static final int main_vp_content=0x7f04000a;
         public static final int none=0x7f040000;
+        public static final int sm_lv_web=0x7f040015;
+        public static final int sm_tv_add_web=0x7f040016;
+        public static final int sm_tv_title=0x7f040013;
+        public static final int sm_tv_web_setting=0x7f040014;
         public static final int top=0x7f040004;
         public static final int triangle=0x7f040001;
         public static final int underline=0x7f040002;
@@ -394,11 +399,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int fragment_base=0x7f030001;
-        public static final int main_content=0x7f030002;
-        public static final int main_content_footer=0x7f030003;
-        public static final int main_content_header=0x7f030004;
-        public static final int sliding_menu=0x7f030005;
+        public static final int config_web_act=0x7f030001;
+        public static final int config_web_actionbar=0x7f030002;
+        public static final int fragment_base=0x7f030003;
+        public static final int main_content=0x7f030004;
+        public static final int main_content_footer=0x7f030005;
+        public static final int main_content_header=0x7f030006;
+        public static final int sliding_menu=0x7f030007;
     }
     public static final class menu {
         public static final int main=0x7f0b0000;

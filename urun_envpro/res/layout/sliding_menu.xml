@@ -1,9 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="240dp"
     android:layout_height="match_parent"
     android:layout_gravity="start"
     android:background="#CCCCCC"
     android:orientation="vertical" >
 
-</LinearLayout>
+    <TextView
+        android:id="@+id/sm_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我的网站" />
+
+    <TextView
+        android:id="@+id/sm_tv_web_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sm_tv_title"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:gravity="end"
+        android:text="编辑" />
+
+    <ListView
+        android:id="@+id/sm_lv_web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sm_tv_add_web"
+        android:layout_below="@+id/sm_tv_title" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/sm_tv_add_web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="订阅更多网站" />
+
+</RelativeLayout>
